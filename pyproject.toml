@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "type-checking"
+version = "0.1.0"
+description = ""
+authors = ["Bennie Robinson <brobinson88@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">3.8,<4.0"
+Flask = "^2.0.1"
+Flask-Pydantic = "^0.8.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+pre-commit = "^2.13.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
